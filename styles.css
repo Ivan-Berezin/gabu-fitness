@@ -18,10 +18,55 @@ h1 {
 
 }
 
+/*Hero*/
+
+.hero {
+    gap: 100px;
+    display: flex; justify-content: center; flex-wrap: wrap;
+}
+
+.hero-text {
+    font-size: 60px; font-weight: 1;
+}
+
+
+.hero-img {max-height: 680px;}
+
+@media screen and (max-width: 800px) {
+    .hero-img {display: none;}
+    .form > p {font-size: 40px; margin-top: 50px;}
+    .hero {gap: 0;}
+
+    
+}
+
 h2 {
     margin: 0;
     padding: 0;
     display: inline;
+}
+
+/*Form*/
+
+#name {
+    border: 2px black solid; border-radius: 5px; text-align: center; font-size: 20px; max-width: 100px; padding-top:10px; padding-bottom: 10px;
+}
+
+#email {
+    border: 2px black solid; border-radius: 5px; text-align: center; font-size: 20px; max-width: 250px; padding-top:10px; padding-bottom: 10px;
+}
+
+form > .button {
+    background-color: #0453F1; color: white; border-radius: 5px; padding: 12px 30px; font-size: 20px; border: 0;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .hero-text {text-align: center;}
+    #name {max-width: 100%;}
+    #email {max-width: 100%;}
+ #myForm {display: flex; flex-direction: column; margin: 20px; gap: 5px;}
 }
 
 /*Planes*/
@@ -31,8 +76,10 @@ h2 {
     display: flex;
     padding: 100px;
     justify-content: center;
-    gap: 200px;
+    gap: 5%; 
+    
 }
+
 
 .plan , .testimonio-de{
     flex: auto;
@@ -55,6 +102,10 @@ h2 {
     background-color: #0453F1; color: white; border-radius: 5px; padding: 0px 30px; font-size: 20px; border: 0;
     padding: 10px 20px;
 
+}
+
+@media screen and (max-width:1322px) {
+  .planes, .testimonios{gap: 10px;}
 }
 
 

@@ -10,14 +10,14 @@
 <body>
     <h1 class="title">GABU FITNESS</h1>
     <!--Hero-->
-    <div style="display: flex; justify-content: center;  flex-wrap: wrap;">
-        <div  class="hero-img" style="max-height: 680px;"><img src="media/3ada535a-fb6b-411f-b537-9ea20781ad29.png" style="max-height: 100%; transform: scaleX(-1) ; " ></div>
-        <div class="form" style="display: flex; flex-direction: column; justify-content: center; max-width: 520px; margin-bottom: 50px; padding-left: 100px;">
-            <p style="font-size: 60px; font-weight: 1;">RECIBE<b><i> LA GUÍA COMPLETA PARA MAMADOS</i></b> GRATIS</p>
-            <form id="myForm" action="https://formsubmit.co/ibhol1702@gmail.com" method="POST" style="max-width: px;">
-                <input type="text" id="name" name="name" placeholder="Nombre" required style="border: 2px black solid; border-radius: 5px; text-align: center; font-size: 20px; max-width: 100px; padding-top:10px; padding-bottom: 10px;">
-                <input type="email" id="email" name="email" placeholder="tu@email.com" required style="border: 2px black solid; border-radius: 5px; text-align: center; font-size: 20px; max-width: 250px; padding-top:10px; padding-bottom: 10px;">
-                <input type="submit" value="RECIBIR" class="button" style="background-color: #0453F1; color: white; border-radius: 5px; padding: 12px 30px; font-size: 20px; border: 0;">
+    <div class="hero">
+        <div  class="hero-img"><img src="media/3ada535a-fb6b-411f-b537-9ea20781ad29.png" style="max-height: 100%; transform: scaleX(-1) ; " ></div>
+        <div class="form" style="display: flex; flex-direction: column; justify-content: center; max-width: 520px; margin-bottom: 50px;">
+            <p class="hero-text" >RECIBE<b><i> LA GUÍA COMPLETA PARA MAMADOS</i></b> GRATIS</p>
+            <form id="myForm" action="https://formsubmit.co/ibhol1702@gmail.com" method="POST">
+                <input type="text" id="name" name="name" placeholder="Nombre" required>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                <input type="submit" value="RECIBIR" class="button">
                 <input type="hidden" name="_next" value>
             </form>
         </div>
@@ -35,7 +35,6 @@
             </ul>
             <button>APRENDE MÁS</button>
         </div>
-
         <div class="plan">
             <div style="max-width: 350px;"><img src="media/b09543da-f7bf-43b5-b961-745a7a82e28d.jpg" style="max-width: 100%; border-radius: 5px; height: 208px;"></div>
             <p>PLAN DE ALIMENTACIÓN <br>PERSONALIZADO</h3>
