@@ -10,21 +10,24 @@
 <body>
     <h1 class="title">GABU FITNESS</h1>
     <!--Hero-->
-    <div class="hero-img"><img></div>
-    <div class="form">
-        <h2>RECIBE<b><i>LA GUÍA COMPLETA PARA MAMADOS</i></b> GRATIS</h2>
-        <form id="myForm" action="https://formsubmit.co/ibhol1702@gmail.com" method="POST">
-            <input type="text" id="name" name="name" placeholder="Nombre" required>
-            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
-            <input type="submit" value="Join" class="button">
-        </form>
+    <div style="display: flex; justify-content: center;  flex-wrap: wrap;">
+        <div  class="hero-img" style="max-height: 680px;"><img src="media/3ada535a-fb6b-411f-b537-9ea20781ad29.png" style="max-height: 100%; transform: scaleX(-1) ; " ></div>
+        <div class="form" style="display: flex; flex-direction: column; justify-content: center; max-width: 520px; margin-bottom: 50px; padding-left: 100px;">
+            <p style="font-size: 60px; font-weight: 1;">RECIBE<b><i> LA GUÍA COMPLETA PARA MAMADOS</i></b> GRATIS</p>
+            <form id="myForm" action="https://formsubmit.co/ibhol1702@gmail.com" method="POST" style="max-width: px;">
+                <input type="text" id="name" name="name" placeholder="Nombre" required style="border: 2px black solid; border-radius: 5px; text-align: center; font-size: 20px; max-width: 100px; padding-top:10px; padding-bottom: 10px;">
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required style="border: 2px black solid; border-radius: 5px; text-align: center; font-size: 20px; max-width: 250px; padding-top:10px; padding-bottom: 10px;">
+                <input type="submit" value="RECIBIR" class="button" style="background-color: #0453F1; color: white; border-radius: 5px; padding: 12px 30px; font-size: 20px; border: 0;">
+                <input type="hidden" name="_next" value>
+            </form>
+        </div>
     </div>
     <!--Planes-->
-    <p>MIS PLANES PARA QUE TE PONGAS MAMADO MÁS RAPIDO</p>
+    <p style="color: #0453F1; background-color: #DFDFDF; text-align: center; font-size: 36px; padding: 20px; margin-top: 0;">MIS PLANES PARA QUE TE PONGAS MAMADO MÁS RAPIDO</p>
     <div class="planes">
-        <div class="plan-de-entrenamiento">
-            <div><img></div>
-            <h3>PLAN DE ENTRENAMIENTO PERSONALIZADO</h3>
+        <div class="plan">
+            <div style="max-width: 350px;"><img src="media/06369079-5ac9-4a05-b84c-662b2a195e5d.jpg" style="max-width: 100%; border-radius: 5px;"></div>
+            <p>PLAN DE ENTRENAMIENTO <br>PERSONALIZADO</h3>
             <ul>
                 <li>ENTRENAMIENTO INTENSO PARA VER RESULTADOS</li>
                 <li>SEGUIMIENTO SEMANAL</li>
@@ -33,9 +36,9 @@
             <button>APRENDE MÁS</button>
         </div>
 
-        <div class="plan-de-alimentacion">
-            <div><img></div>
-            <h3>PLAN DE ALIMENTACIÓN PERSONALIZADO</h3>
+        <div class="plan">
+            <div style="max-width: 350px;"><img src="media/b09543da-f7bf-43b5-b961-745a7a82e28d.jpg" style="max-width: 100%; border-radius: 5px; height: 208px;"></div>
+            <p>PLAN DE ALIMENTACIÓN <br>PERSONALIZADO</h3>
             <ul>
                 <li>QUÉ COMER Y EN QUÉ CANTIDADES</li>
                 <li>OBTENER CRECIMIENTO Y DEFINICIÓN MUSCULAR</li>
@@ -47,26 +50,27 @@
     </div>  
 
     <!--Testimonios-->
+    <p style="color: #0453F1; background-color: #DFDFDF; text-align: center; font-size: 36px; padding: 20px;">TESTIMONIOS</p>
     <div class="testimonios">
-        <div class="testimonio-de-">
-            <div><img></div>
-            <p>Nombre</p>
-            <p>Testimonio</p>
-        </div>
-
         <div class="testimonio-de">
             <div><img></div>
             <p>Nombre</p>
             <p>Testimonio</p>
         </div>
 
+        <div class="testimonio-de">
+            <div><img link="./media/IMG_3943-PhotoRoom.png-PhotoRoom.png"></div>
+            <p>Nombre</p>
+            <p>Testimonio</p>
+        </div>
+    </div>
     <!--FAQ-->
 
-    <h1 class="faq-heading">FAQ'S</h1>
+    <p style="color: #0453F1; background-color: #DFDFDF; text-align: center; font-size: 36px; padding: 10px; margin-bottom: 50px;">PREGUNTAS FRECUENTES</p>
     <section class="faq-container">
         <div class="faq-one">
             <!-- faq question -->
-            <h1 class="faq-page">What is an FAQ Page?</h1>
+            <p class="faq-page">What is an FAQ Page?</p>
             <!-- faq answer -->
             <div class="faq-body">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
@@ -78,7 +82,7 @@
         <hr class="hr-line">
         <div class="faq-two">
             <!-- faq question -->
-            <h1 class="faq-page">Why do you need an FAQ page?</h1>
+            <p class="faq-page">Why do you need an FAQ page?</p>
             <!-- faq answer -->
             <div class="faq-body">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
@@ -90,7 +94,7 @@
         <hr class="hr-line">
         <div class="faq-three">
             <!-- faq question -->
-<h1 class="faq-page">Does it improves the user experience of a website?</h1>
+<p class="faq-page">Does it improves the user experience of a website?</p>
             <!-- faq answer -->
             <div class="faq-body">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
